@@ -227,7 +227,7 @@ app.get("/transactions", async (req, res) => {
   income,
   expense,
   categories,
-  transactions: user.manualTransactions || []
+  transactions: user.manualTransactions || [] 
 });
 
   } catch (error) {
