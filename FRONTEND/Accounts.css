@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #2b5876, #4e4376);
+}
+
+/* Container */
+.accounts-container {
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+/* Title */
+.title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* FLEX LAYOUT */
+.accounts-flex {
+  display: flex;
+  flex-wrap: wrap;              /* wrap to next row */
+  justify-content: center;      /* center horizontally */
+  gap: 20px;
+}
+
+/* Card */
+.account-card {
+  width: 220px;
+  background: white;
+  color: #333;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.account-card:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+/* Name */
+.account-card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Type */
+.type {
+  font-size: 14px;
+  color: gray;
+}
+
+/* Balance */
+.balance {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4e4376;
+}

@@ -1,0 +1,53 @@
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+  z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+  color: #00ffcc;
+  margin-bottom: 30px;
+}
+
+/* MENU */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 15px;
+}
+
+/* LINKS */
+.sidebar-menu a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.sidebar-menu a:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* LOGOUT */
+.logout-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #ff4d4d, #ff9999);
+  color: white;
+  cursor: pointer;
+}
